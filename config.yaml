@@ -1,3 +1,34 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: A developer's website
+theme: github.com/hugoinaction/Eclectic
+author: Gene Kuo
+facebook: ""
+twitter: ""
+email: ""
+name: "dev-web"
+location: "Taiwan"
+phone: ""
+hours: "**Mon-Fri:** 9:00AM - 6:00PM"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 1
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 2
+params:
+  color: "#71B180"
+  copyright: "Copyright &copy; 2020 Developer Web. All Rights Reserved."
+  footer:
+    - title: About
+      content: A Developer Web is a great place to develop software.
+    - title: Recent Blog Posts
+      recents: blog
+      recentCount: 7
+    - title: Contact Us
+      contact: true
