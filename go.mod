@@ -1,4 +1,4 @@
-module github.com/genekuo/dev-web
+module AcmeCorporation
 
 go 1.12
 
