@@ -1,0 +1,3 @@
+[submodule "themes/Universal"]
+	path = themes/Universal
+	url = https://github.com/hugoinaction/Universal
